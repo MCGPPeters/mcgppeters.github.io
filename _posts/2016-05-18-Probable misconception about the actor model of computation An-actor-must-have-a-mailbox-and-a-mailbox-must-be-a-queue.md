@@ -1,0 +1,7 @@
+# Probable misconception about the actor model (of computation) : An actor must have a mailbox and a mailbox must be a queue
+
+An actor may only receive one (1) message at a time. In actor speak, arrival of a message at an actor and the receiving a message by an actor are 2 discrete terms. Receiving a message triggers an event in the actor which starts the computation.
+
+To avoid an overload of the actor (many messages may be in transit to be received by the actor) and avoiding interference between computations as a result of receiving multiple messages simultaneously, an actor may only receive one (1) message at a time. To achieve this, a process called arbitration takes place when a message arrives at the actor. It is performed by a component commonly known as an ‘arbiter’. Arbitration is just that : an arbitrary decision on which message will be received next by the actor. It does not state anything about how the decision is made.
+
+This means that the arrival order of the messages may not be the same as the order in which messages are received by the actor and that is ok. It is already undetermined when a message will arrive at a targeted actor when it is send by another actor. The only role of the arbiter is to ensure only one (1) message is received at a time by the actor.
