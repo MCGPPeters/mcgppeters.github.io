@@ -1,6 +1,6 @@
 ---
 title: Custom step argument transformations with table arguments in SpecFlow by example
-permalink: /:categories/:year/:month/:day/:title
+permalink: /:categories/:year/:month/:day/:title/
 ---
 
 # Custom step argument transformations with table arguments in SpecFlow by example
