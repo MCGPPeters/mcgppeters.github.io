@@ -1,7 +1,6 @@
 ---
 title: custom step argument transformations with table arguments in SpecFlow by example
 permalink: /:categories/:year/:month/:day/:title/
-layout: post
 ---
 
 # Custom step argument transformations with table arguments in SpecFlow by example
