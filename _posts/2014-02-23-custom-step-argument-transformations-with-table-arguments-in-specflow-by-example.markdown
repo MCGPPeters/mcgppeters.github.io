@@ -2,8 +2,6 @@
 permalink: /:categories/:year/:month/:day/:title/
 ---
 
-# Custom step argument transformations with table arguments in SpecFlow by example
-
 Consider to following SpecFlow scenario:
 
 ``` Gherkin

@@ -1,5 +1,3 @@
-# The (non) sense of (micro) services : the composition of software in different levels of granularity
-
 Recently I listened to another interesting episode of .NET Rocks, this time with guest Juval Lowy, about [“The evolution of services”](http://www.dotnetrocks.com/?show=1293). As a consequence there was some discussion in the show comments about what micro services actually are and what added value the principle of “every class as a service” could have (among other subjects).
 
 I had a nice discussion with Mark Seemann and this post summarizes my thoughts I expressed there, for my own recollection and for continuing an open exchange of viewpoints on the topics. As analogy to explain my thoughts on the subjects, I use music….
