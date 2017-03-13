@@ -1,5 +1,5 @@
 ---
-title: Debugging TypeScript With ts-node and mocha In Visual Studio Code
+title: Debugging TypeScript With ts-node and mocha in Visual Studio Code
 ---
 
 For my current project I'm writing a lot of TypeScript. I prefer a lean approach where source files are only transpiled in memory untill I am packaging up the solution for deployment. In practise this means while I am building / running my test suite.
