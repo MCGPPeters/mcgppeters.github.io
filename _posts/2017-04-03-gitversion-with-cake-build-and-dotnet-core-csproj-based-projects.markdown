@@ -63,19 +63,17 @@ Task("Build")
     MSBuild(solution, buildSettings);
 });
 
-Task("NuGetPack")
+Task("CopyPackages")
     .IsDependentOn("Build")
     .Does(() =>
 {
-    Information("Version " + versionInfo.NuGetVersionV2);
-    var settings = new DotNetCorePackSettings
-    {
-        Configuration = "Release",
-        OutputDirectory = "./artifacts/",
-        NoBuild = true
-    };
-    DotNetCorePack("./src/AspNetCoreHttpMessageHandler", settings);
+    var files = GetFiles("./src/**/*.nupkg");
+    CopyFiles(files, "./artifacts");
+
+});
 ```
+
+Please note that I'm not using ```DotNetCorePack``` as it doesn't seem to pick up the version number.... Copy the output of the build, which includes the ```.nupkg```.
 
 This will add the correct version to the build output, like for instance:
 
