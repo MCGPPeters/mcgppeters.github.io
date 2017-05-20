@@ -6,5 +6,5 @@ It is port of Damian Hickey's [OwinHttpMessageHandler](https://github.com/damian
 
 Source can be found on [GitHub](https://github.com/MCGPPeters/Aranea.HttpMessageHandler).
 
-Install via NuGet : [![NuGet Latest Stable https://www.nuget.org/packages/Aranea.HttpMessageHandler](https://img.shields.io/nuget/v/Aranea.HttpMessageHandler.svg)](https://www.nuget.org/packages/Aranea.HttpMessageHandler)
+Install via NuGet: [![NuGet Latest Stable https://www.nuget.org/packages/Aranea.HttpMessageHandler](https://img.shields.io/nuget/v/Aranea.HttpMessageHandler.svg)](https://www.nuget.org/packages/Aranea.HttpMessageHandler)
 
